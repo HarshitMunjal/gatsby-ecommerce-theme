@@ -20,10 +20,10 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={toOptimizedImage('/blogCover.png')}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
+          title={`The Latest from Hunny usnk`}
+          ctaLink={'read more'}
           ctaTo={'/blog/sample'}
-          header={'design'}
+          header={'news'}
         />
 
         <div className={styles.navContainer}>
@@ -37,19 +37,19 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Design
+            New Releases
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Behind the Scenes
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Interview
+            Tour Updates
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}

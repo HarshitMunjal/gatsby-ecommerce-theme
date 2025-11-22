@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-ecommerce-theme",
+  "name": "hunny-usnk-website",
   "version": "1.0.0",
   "private": true,
-  "description": "An e-commerce theme designed by Matter Design for Netlify.",
-  "author": "Matter Design",
+  "description": "Official website for music artist Hunny usnk.",
+  "author": "Hunny usnk",
   "keywords": [
     "gatsby"
   ],
