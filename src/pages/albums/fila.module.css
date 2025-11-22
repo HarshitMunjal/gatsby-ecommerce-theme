@@ -1,0 +1,175 @@
+.root {
+  width: 100%;
+}
+
+.albumDescription {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.albumDescription h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: var(--gold, #d4af37);
+}
+
+.albumDescription p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.theme {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 8px;
+}
+
+.tracklistContainer {
+  padding: 40px 0;
+}
+
+.tracklistContainer h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--gold, #d4af37);
+}
+
+.trackCard {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.trackCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.trackImageContainer {
+  flex-shrink: 0;
+}
+
+.trackImage {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trackInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trackHeader h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.bonusTag {
+  color: var(--gold, #d4af37);
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.featuring {
+  margin: 5px 0 0 0;
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+.mood {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.duration {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: auto;
+}
+
+.streamingSection {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.streamingSection h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--gold, #d4af37);
+}
+
+.streamingLinks {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.streamingButton {
+  padding: 12px 30px;
+  background: var(--gold, #d4af37);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.streamingButton:hover {
+  background: #b8941f;
+  transform: scale(1.05);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .trackCard {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .trackImage {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .trackHeader h3 {
+    font-size: 1.3rem;
+  }
+
+  .albumDescription h2,
+  .tracklistContainer h2,
+  .streamingSection h2 {
+    font-size: 1.5rem;
+  }
+
+  .streamingLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .streamingButton {
+    width: 200px;
+  }
+}

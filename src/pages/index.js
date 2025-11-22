@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'Featured Releases'} />
+          <Title name={'F.I.L.A. (Fallin\' In Love Again)'} subtitle={'Latest Album - 4 Tracks'} link={'/albums/fila'} textLink={'view album details'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -89,10 +89,10 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`New Album \n Out Now`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`F.I.L.A. \n Out Now`} subtitle={'4 heartfelt tracks exploring love, loss, and healing'} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>STREAM</Link>
-          <Link to={'/shop'}>BUY</Link>
+          <Link to={'/albums/fila'}>VIEW ALBUM</Link>
+          <Link to={'/shop'}>BUY MERCH</Link>
         </div>
       </div>
 

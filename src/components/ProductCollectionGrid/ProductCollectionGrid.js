@@ -2,34 +2,23 @@ import React from 'react';
 import * as styles from './ProductCollectionGrid.module.css';
 
 import ProductCollection from '../ProductCollection';
+import albumsData from '../../helpers/albums.json';
 
 const ProductCollectionGrid = (props) => {
+  const album = albumsData[0]; // F.I.L.A. album
+  const tracks = album?.tracks || [];
+
   return (
     <div className={styles.root}>
-      <ProductCollection
-        image={'/collections/collection1.png'}
-        title={'Men'}
-        text={'SHOP NOW'}
-        link={'/shop'}
-      />
-      <ProductCollection
-        image={'/collections/collection2.png'}
-        title={'Women'}
-        text={'SHOP NOW'}
-        link={'/shop'}
-      />
-      <ProductCollection
-        image={'/collections/collection3.png'}
-        title={'Accessories'}
-        text={'SHOP NOW'}
-        link={'/shop'}
-      />
-      <ProductCollection
-        image={'/collections/collection4.png'}
-        title={'Simple Cotton'}
-        text={'SHOP NOW'}
-        link={'/shop'}
-      />
+      {tracks.map((track, index) => (
+        <ProductCollection
+          key={track.trackNumber}
+          image={track.coverImage}
+          title={track.title}
+          text={track.featuring ? `ft. ${track.featuring}` : track.mood}
+          link={'/shop'}
+        />
+      ))}
     </div>
   );
 };

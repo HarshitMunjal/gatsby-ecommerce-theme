@@ -75,15 +75,15 @@
               "menuLink": "/shop"
             },
             {
+              "menuLabel": "F.I.L.A. Album",
+              "menuLink": "/albums/fila"
+            },
+            {
+              "menuLabel": "All Albums",
+              "menuLink": "/albums"
+            },
+            {
               "menuLabel": "Latest Releases",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "Albums",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "Singles",
               "menuLink": "/shop"
             }
           ]
