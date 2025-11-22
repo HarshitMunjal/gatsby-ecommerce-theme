@@ -13,75 +13,68 @@ const SamplePage = (props) => {
         <Container>
           <div className={styles.blogContainer}>
             <Blog
-              category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
+              category={'news'}
+              title={'New Single Out Now: Making Music That Matters'}
               image={'/blogFeatured.png'}
               alt={''}
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
+                  Hunny usnk's latest single drops today, marking a new chapter
+                  in the artist's journey. This track combines innovative beats
+                  with heartfelt lyrics, creating a sound that's both fresh and
+                  authentic. Available now on all streaming platforms.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
-                  personal information that you voluntarily provide when
-                  applying or registering for an account with The Upside or
-                  making a purchase on The Upside website; www.theupside.com
-                  (the Website).
+                  The creative process behind this track was intense and
+                  rewarding. Drawing from personal experiences and collaborating
+                  with talented producers, Hunny usnk crafted something truly
+                  special. The track explores themes of growth, resilience, and
+                  staying true to yourself in a world that's constantly changing.
                 </p>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy (Privacy Policy) outlines how your
-                  information is collected, used and disclosed when you access
-                  or use our Services as defined in our Terms. This information
-                  is collected, used and disclosed in accordance with the
-                  Privacy Act 1988 (Cth) (Privacy Act).
+                  Working in the studio has always been where the magic happens.
+                  Every beat, every lyric, every melody choice comes from a place
+                  of genuine emotion and artistic vision. This release represents
+                  countless hours of dedication and passion poured into creating
+                  something meaningful.
                 </p>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy is incorporated by reference into our
-                  Terms. Any capitalized terms not defined in this Policy are
-                  defined in the Terms. You agree to comply with all Terms when
-                  accessing or using our Services, including this Privacy
-                  Policy.
+                  The response from fans has been incredible. Seeing how the
+                  music connects with people and becomes part of their lives is
+                  what drives Hunny usnk to keep creating. This is just the
+                  beginning - more music is on the way, and the journey continues.
                 </p>
               </div>
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/cloth.png')} alt={'sample1'} />
+                  <img src={toOptimizedImage('/cloth.png')} alt={'hunny usnk in studio'} />
                 </div>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'sample2'} />
+                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'performing live'} />
                 </div>
               </div>
               <div className={styles.content}>
-                <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
+                <h2 className={styles.blogSubHeader}>What's Next</h2>
                 <p className={styles.blogParagraph}>
-                  Our Services, including but not limited to the registration of
-                  an account with us or placing of an order, is not intended to
-                  be used by children under the age of 13. When a visitor
-                  indicates an age under 13, the registration process for The
-                  Upside website cannot be completed, and no personally
-                  identifying information is collected in conjunction with that
-                  attempted submission except that we retain e-mail addresses of
-                  such persons (and record of access attempts) for purposes of
-                  denying registration. Otherwise, we do not knowingly collect
-                  personally identifiable information from visitors under the
-                  age of 13.
+                  The future is bright and full of new music. Hunny usnk is
+                  already working on the next release, experimenting with new
+                  sounds and pushing creative boundaries. Stay tuned to social
+                  media and streaming platforms for announcements about upcoming
+                  singles, albums, and live performances.
                 </p>
                 <p className={styles.blogParagraph}>
-                  If you are under 18, any use of our Services must be with the
-                  involvement of a parent or guardian. By accessing or using our
-                  Website, you warrant and represent to us that you are over the
-                  age of 18 years and you have the right, authority and legal
-                  capacity to enter into a legally binding agreement and to
-                  abide by this Privacy Policy.
+                  For fans wanting to dive deeper into the music, exclusive
+                  behind-the-scenes content is available through various
+                  platforms. From studio sessions to the creative process,
+                  there's always something new to discover about how the music
+                  comes to life.
                 </p>
                 <p className={styles.blogParagraph}>
-                  The Upside collects, uses and discloses information regarding
-                  users aged 13-18 in the same manner as it does for adults.
+                  Thank you to everyone who has supported this journey. Your
+                  energy and enthusiasm fuel the creative fire and inspire new
+                  music. Let's continue this journey together, one track at a
+                  time.
                 </p>
               </div>
             </Blog>

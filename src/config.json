@@ -12,10 +12,10 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/hunnyusnk",
+    "instagram": "https://www.instagram.com/hunnyusnk",
+    "twitter": "https://twitter.com/hunnyusnk",
+    "youtube": "https://www.youtube.com/@hunnyusnk"
   },
   "paymentOptions": {
     "visa": true,
@@ -27,11 +27,11 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "About Us",
+          "text": "About Hunny usnk",
           "link": "/about"
         },
         {
-          "text": "Journal",
+          "text": "Latest News",
           "link": "/blog"
         },
         {
@@ -41,87 +41,83 @@
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "Music",
       "links": [
         {
-          "text": "FAQ",
+          "text": "Listen Now",
+          "link": "/shop"
+        },
+        {
+          "text": "Merchandise",
+          "link": "/shop"
+        },
+        {
+          "text": "Tour Dates",
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "Contact",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Music",
       "menuLink": "/shop",
       "category": [
         {
-          "categoryLabel": "woman",
+          "categoryLabel": "Listen",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "All Tracks",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "Latest Releases",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
+              "menuLabel": "Albums",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "trousers",
+              "menuLabel": "Singles",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "men",
+          "categoryLabel": "Merchandise",
           "submenu": [
             {
-              "menuLabel": "All clothing",
+              "menuLabel": "All Merch",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
+              "menuLabel": "Apparel",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "jackets",
+              "menuLabel": "Accessories",
               "menuLink": "/shop"
             },
             {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
+              "menuLabel": "Limited Edition",
               "menuLink": "/shop"
             }
           ]
         },
         {
-          "categoryLabel": "accessories",
+          "categoryLabel": "More",
           "submenu": [
             {
-              "menuLabel": "caps & scarves",
-              "menuLink": "/shop"
+              "menuLabel": "Tour Dates",
+              "menuLink": "/faq"
             },
             {
-              "menuLabel": "bags",
+              "menuLabel": "Exclusives",
               "menuLink": "/shop"
             }
           ]
@@ -129,7 +125,7 @@
       ]
     },
     {
-      "menuLabel": "journal",
+      "menuLabel": "News",
       "menuLink": "/blog",
       "category": null
     },
