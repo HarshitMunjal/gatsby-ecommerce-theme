@@ -1,0 +1,54 @@
+[
+  {
+    "albumId": "fila-2024",
+    "title": "F.I.L.A. (Fallin' In Love Again)",
+    "artist": "Hunny Usnk",
+    "releaseYear": 2024,
+    "coverImage": "/albums/fila-album-cover.png",
+    "genre": "Punjabi Pop",
+    "description": "\"F.I.L.A. (Fallin' In Love Again)\" is a heartfelt and melodic fusion of modern Punjabi-pop, emotional storytelling, and smooth urban production. Hunny Usnk explores the highs, lows, and unforgettable moments of love through four deeply expressive tracks, each carrying its own vibe and emotional weight.",
+    "theme": "\"F.I.L.A.\" is not just an EP—it's a journey through love, heartbreak, healing, and rediscovery. Hunny Usnk delivers raw emotion, relatable lyrics, and a fresh Punjabi-pop sound that stays with you long after the music stops.",
+    "tracks": [
+      {
+        "trackNumber": 1,
+        "title": "Akhiyan",
+        "coverImage": "/albums/akhiyan-cover.jpg",
+        "mood": "Romantic & Emotional",
+        "description": "A soft, romantic vibe where emotions speak louder than words. Akhiyan captures the feeling of longing—eyes that tell stories of love, separation, and hope.",
+        "duration": "3:45"
+      },
+      {
+        "trackNumber": 2,
+        "title": "Gossips (Tere Karke)",
+        "coverImage": "/albums/gossips-cover.png",
+        "featuring": "Ayush Munjal",
+        "mood": "Bold & Punchy",
+        "description": "A bold, punchy track featuring Ayush Munjal. This song tackles rumours, misunderstandings, and the pressure of relationships in a world full of noise.",
+        "duration": "3:30"
+      },
+      {
+        "trackNumber": 3,
+        "title": "Dooriyan",
+        "coverImage": "/albums/dooriyan-cover.jpg",
+        "mood": "Emotional Deep-Cut",
+        "description": "An emotional deep-cut. Dooriyan expresses the pain of distance—physical, emotional, and unspoken. A song for those who fell apart but still feel connected.",
+        "duration": "4:10",
+        "bonus": true
+      },
+      {
+        "trackNumber": 4,
+        "title": "Mine (Mere Sajna)",
+        "coverImage": "/albums/mine-cover.png",
+        "mood": "Dreamy & Warm",
+        "description": "A dreamy, warm confession of love. This track blends romantic lyrics with a modern, smooth production, making it the perfect finale to the EP.",
+        "duration": "3:52"
+      }
+    ],
+    "streamingLinks": {
+      "spotify": "#",
+      "appleMusic": "#",
+      "youtube": "https://www.youtube.com/@hunnyusnk",
+      "soundcloud": "#"
+    }
+  }
+]
